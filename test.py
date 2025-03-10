@@ -4,11 +4,6 @@ import streamlit as st
 
 import os
 
-# This prints the directory of the current script
-print("Script directory:", os.path.dirname(os.path.abspath(__file__)))
-
-# This prints the full path (including filename)
-print("Full path to script:", os.path.abspath(__file__))
 
 
 def bereken_ncw(kasstromen, disconteringsvoet):
